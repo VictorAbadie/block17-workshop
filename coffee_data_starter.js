@@ -2,54 +2,54 @@
 // Clean the coffee_data file:
 
 // Checklist:
-// a. All prices should be numbers.
-// b. All items should be strings.
+// a. All prices should be numbers. (Check)
+// b. All items should be strings. (Check)
 // c. Objects and properties should have commas seperating them.
 // d. Connect the coffee_data.js file to the index.js file.
 
 const coffeeMenu = [
     {
-        name: "cappuccino",
-        price: "8",
+        name: "Cappuccino",
+        price: 8,
         seasonal: false,
     },
     {
-        name: espresso,
-        price: 5,
-        seasonal: false,
-    }
-    {
-        name: "latte",
+        name: "Espresso",
         price: 5,
         seasonal: false,
     },
     {
-        name: affogato,
-        price: "9",
+        name: "Latte",
+        price: 5,
+        seasonal: false,
+    },
+    {
+        name: "Affogato",
+        price: 9,
         seasonal: true,
-    }, 
+    },
     {
-        name: "macchiato",
-        price: "6",
+        name: "Macchiato",
+        price: 6,
         seasonal: false,
-    }
+    },
     {
-        name: americano,
+        name: "Americano",
         price: 7,
         seasonal: false,
-    }
+    },
     {
-        name: "iced coffee",
-        price: "6",
+        name: "Iced Coffee",
+        price: 6,
         seasonal: false,
     },
     {
-        name: frappe,
-        price: "8",
+        name: "Frappe",
+        price: 8,
         seasonal: false,
-    }
+    },
     {
-        name: "cuban espresso",
+        name: "Cuban Espresso",
         price: 10,
         seasonal: true,
     }
